@@ -2,9 +2,12 @@
   "name": "backend",
   "version": "1.0.0",
   "main": "index.js",
+  "engines": {
+    "node": "22.x"
+  },
   "scripts": {
-    "start": "node src/server.js",
-    "dev": "node --watch src/server.js"
+    "start": "node index.js",
+    "dev": "node --watch index.js"
   },
   "keywords": [],
   "author": "",
