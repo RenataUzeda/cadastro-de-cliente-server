@@ -2,7 +2,8 @@ require("dotenv").config();
 const express = require("express");
 const path = require("path");
 const cors = require("cors");
-const registerController = require("./controllers/register");
+const registerController = require("./src/controllers/register");
+
 const port = process.env.PORT;
 
 const app = express();
